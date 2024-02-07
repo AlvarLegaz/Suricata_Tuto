@@ -45,6 +45,24 @@ These can be found in **/etc/suricata/rules/**:
 
 ### Running Suricata
 
+* **Ejecutar suricata en modo normal:**
+```
+sudo suricata -c /etc/suricata/suricata.yaml -i wlan0
+```
+Si queremos ejecutarlo en segundo plano simplemente añadimos & el problema es que cuando se cierra el terminal esta aplicacion tambien se cierra.
+```
+sudo suricata -c /etc/suricata/suricata.yaml -i wlan0 &
+```
+Con comando nohup no se cierra al cerrar terminal.
+```
+sudo nohup suricata -c /etc/suricata/suricata.yaml -i wlan0 &
+```
+El proceso se puede ver con ```ps``` y eliminar con kill ````kill```.
+
+* **Ejecutar suricata como servicio:**
+```
+sudo systemctl start suricata
+```
 #### Output log files
 * **Directory:** /var/log/suricata/
 

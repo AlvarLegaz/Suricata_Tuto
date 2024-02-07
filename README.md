@@ -22,6 +22,10 @@ There are three main ways Suricata can be used:
 
 ### Configuration
 * **/etc/suricata/suricata.yaml**: is the configuration file. Here, you can set the home network, internet adapter or default rules
+* ```sudo nano suricata.yaml```
+* Dentro del archivo podemos establecer la ip de nuestra red
+```HOME_NET: por mi ip. HOME_NET: "[192.168.18.87/24]"```
+
 
 ### Detection Rules:
 Rules or signatures are used to identify specific patterns, behavior, and conditions of network traffic that might indicate malicious activity.

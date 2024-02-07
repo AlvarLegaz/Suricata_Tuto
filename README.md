@@ -57,7 +57,7 @@ Con comando nohup no se cierra al cerrar terminal.
 ```
 sudo nohup suricata -c /etc/suricata/suricata.yaml -i wlan0 &
 ```
-El proceso se puede ver con ```ps``` y eliminar con  ```kill```.
+El proceso se puede ver con ```pidof suricata``` y eliminar con  ```kill [id]```.
 
 * **Ejecutar suricata como servicio:**
 ```

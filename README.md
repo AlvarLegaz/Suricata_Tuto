@@ -14,8 +14,13 @@ There are three main ways Suricata can be used:
 * **Intrusion prevention system (IPS):** Suricata can also function as an intrusion prevention system (IPS) to detect and block malicious activity and traffic. Running Suricata in IPS mode requires additional configuration such as enabling IPS mode.
 * **Network security monitoring (NSM):** In this mode, Suricata helps keep networks safe by producing and saving relevant network logs. Suricata can analyze live network traffic, existing packet capture files, and create and save full or conditional packet captures. This can be useful for forensics, incident response, and for testing signatures. For example, you can trigger an alert and capture the live network traffic to generate traffic logs, which you can then analyze to refine detection signatures.
 
-## Suricata file tree in Linux.
+## Suricata in Linux.
 
+### Instalation
+1. ´´´sudo apt update & sudo apt upgrade´´´
+2. ´´´sudo apt install suricata´´´
+
+### Configuration
 * **/etc/suricata/suricata.yaml**: is the configuration file. Here, you can set the home network, internet adapter or default rules
 
 ### Rules:

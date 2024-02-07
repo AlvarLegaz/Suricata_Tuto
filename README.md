@@ -25,6 +25,9 @@ There are three main ways Suricata can be used:
 * ```sudo nano suricata.yaml```
 * Dentro del archivo podemos establecer la ip de nuestra red
 ```HOME_NET: por mi ip. HOME_NET: "[192.168.18.87/24]"```
+* Establecemos la interza (se encuentra a la mitad del archivo)
+``` af-packet:
+  - interface: wlan0```
 
 
 ### Detection Rules:

@@ -23,9 +23,18 @@ There are three main ways Suricata can be used:
 ### Configuration
 * **/etc/suricata/suricata.yaml**: is the configuration file. Here, you can set the home network, internet adapter or default rules
 
-### Rules:
+### Detection Rules:
 Rules or signatures are used to identify specific patterns, behavior, and conditions of network traffic that might indicate malicious activity.
 
 These can be found in **/etc/suricata/rules/**:
 
-**/var/log/suricata/**:
+### Running Suricata
+
+#### Output log files
+* **Directory:** /var/log/suricata/
+
+**Log Format:** EVE JSON - Extensible Event Format JavaScrip Object Notation.
+**Suricata log types:**
+* **Alert logs:** usually this is the output of signatures which have triggered an alert. For example, a signature that detects suspicious traffic across the network.
+* **Network telemetry logs:** information about network traffic flows, it is not always security relevant, it’s simply recording what’s happening on a network, such as a connection being made to a specific port.
+

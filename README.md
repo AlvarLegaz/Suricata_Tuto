@@ -1,4 +1,4 @@
-# Suricata Totorial
+# Suricata Tutorial
 Tutorial to configurate and deploy the Suricata IDS.
 
 ## Introduction

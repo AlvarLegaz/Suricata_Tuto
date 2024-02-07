@@ -16,7 +16,11 @@ There are three main ways Suricata can be used:
 
 ## Suricata file tree in Linux.
 
-**/etc/suricata/**:
-**/etc/suricata/rules/**:
+* **/etc/suricata/suricata.yaml**: is the configuration file. Here, you can set the home network, internet adapter or default rules
+
+### Rules:
+Rules or signatures are used to identify specific patterns, behavior, and conditions of network traffic that might indicate malicious activity.
+
+These can be found in **/etc/suricata/rules/**:
 
 **/var/log/suricata/**:

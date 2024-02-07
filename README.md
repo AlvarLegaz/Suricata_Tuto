@@ -5,8 +5,8 @@ Tutorial to configurate and deploy the Suricata IDS.
 
 Suricata is an open source signature-based IDS.
 
-**Host-based intrusion detection system (HIDS):** an application that monitors the activity of the host on which it’s installed.
-**Network-based intrusion detection system (NIDS):** an application that collects and monitors network traffic and network data. It works as sniffer.
+* **Host-based intrusion detection system (HIDS):** an application that monitors the activity of the host on which it’s installed.
+* **Network-based intrusion detection system (NIDS):** an application that collects and monitors network traffic and network data. It works as sniffer.
 
 ### Suricata features
 There are three main ways Suricata can be used:

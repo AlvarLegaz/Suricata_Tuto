@@ -1,5 +1,5 @@
 # Suricata Totorial
-Totorial to configurate and deploy the Suricata IDS
+Tutorial to configurate and deploy the Suricata IDS
 
 ## Introduction
 

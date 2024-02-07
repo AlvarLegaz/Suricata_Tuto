@@ -17,8 +17,8 @@ There are three main ways Suricata can be used:
 ## Suricata in Linux.
 
 ### Instalation
-1. ´´´sudo apt update & sudo apt upgrade´´´
-2. ´´´sudo apt install suricata´´´
+1. ```sudo apt update & sudo apt upgrade```
+2. ```sudo apt install suricata```
 
 ### Configuration
 * **/etc/suricata/suricata.yaml**: is the configuration file. Here, you can set the home network, internet adapter or default rules

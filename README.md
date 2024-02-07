@@ -27,7 +27,8 @@ There are three main ways Suricata can be used:
 ```HOME_NET: por mi ip. HOME_NET: "[192.168.18.87/24]"```
 * Establecemos la interza (se encuentra a la mitad del archivo)
 ``` af-packet:
-  - interface: wlan0```
+  - interface: wlan0
+```
 
 
 ### Detection Rules:

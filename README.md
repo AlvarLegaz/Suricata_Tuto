@@ -26,10 +26,17 @@ There are three main ways Suricata can be used:
 * Dentro del archivo podemos establecer la ip de nuestra red
 ```HOME_NET: por mi ip. HOME_NET: "[192.168.18.87/24]"```
 * Establecemos la interza (se encuentra a la mitad del archivo)
-``` af-packet:
-  - interface: wlan0
 ```
+af-packet:
+- interface: wlan0
+```
+* Por ultimo podemos establecer las reglas. En este caso usaré una regla propia definida en **/etc/suricata/rules/**
+```
+default-rule-path: /etc/suricata/rules
+rule-files:
+  - suricata.rules
 
+```
 
 ### Detection Rules:
 Rules or signatures are used to identify specific patterns, behavior, and conditions of network traffic that might indicate malicious activity.
